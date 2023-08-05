@@ -305,3 +305,28 @@
 .copyright p{
     padding :5px;
 }
+
+
+.display__swingtrue{
+    margin-left: -360px;
+    animation: swing_true 800ms;
+    animation-fill-mode: both;   
+}
+    .display__swingfalse {
+        display: none;
+         margin-left: 5px;
+         
+    }
+
+
+
+    @keyframes swing_true {
+        0% {
+            margin-left: -360px;
+        }
+
+        100% {
+            margin-left: 5px;
+        }
+    }
+
