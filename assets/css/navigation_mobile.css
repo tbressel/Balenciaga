@@ -38,7 +38,7 @@
     border: 1px black solid;
     background-color: var(--bs-white);
     padding :2px;
-    width: 50vw; 
+    width: 100vw; 
     height: fit-content;
 }
 
@@ -253,3 +253,12 @@
     background-image: url("../img/Image6.jpg");
 }
 
+@media screen and (min-width: 550px){
+
+
+.main_navigation_window {
+    width: 50vw;
+ 
+}
+
+}
