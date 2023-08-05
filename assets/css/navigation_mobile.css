@@ -261,4 +261,47 @@
  
 }
 
+}.mainfooter__container {
+    background-color: rgb(138, 138, 138);
+    text-transform: uppercase;
+    
+}
+
+.mainfooter__container ul {
+    border-bottom: none;
+    padding: 5px;
+    border-bottom: 1px black solid;
+}
+
+.mainfooter__container ul li {
+    padding: 20px;
+    border-bottom: none;
+}
+
+.footer_link span {
+    color :black;
+}
+
+.footer_link span::after {
+    content: url("../svg/down-arrow.svg");
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+
+    
+}
+.footer_level2 li {
+    text-transform: capitalize;
+    border: none;
+    
+}
+
+.copyright {
+    text-transform: capitalize;
+    text-align: center;
+    margin: 10px;
+}
+
+.copyright p{
+    padding :5px;
 }
