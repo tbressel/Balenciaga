@@ -3,7 +3,7 @@ console.log(ELEMENT__footer);
 ELEMENT__footer.forEach(element => {
     element.addEventListener('click', () => {
 
-        HideAll_footer();
+      
         
         let ELEMENT__value =  element.querySelector(".footer_level2").classList[1];
         console.log(ELEMENT__value);
@@ -11,7 +11,7 @@ ELEMENT__footer.forEach(element => {
         
 
         if(ELEMENT__value === "display__swingfalse") {
-            HideAll_level2();
+            HideAll_footer();
             element.querySelector(".footer_level2").classList.replace("display__swingfalse", "display__swingtrue")
         } else {
             element.querySelector(".footer_level2").classList.replace("display__swingtrue", "display__swingfalse")
