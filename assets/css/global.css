@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'BBCondBold';
+    src: url('../fonts/BB-CondBold.woff2');
+}
+
+
+@font-face {
+    font-family: 'BBRegular';
+    src: url('../fonts/BB-Regular.woff2');
+}
+
+
+html {
+    font-family: 'BBRegular', 'Arial', 'SansSerif';
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+
+
+h6 {
+    font-family: 'BBRegular';
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+    margin: 20px 0 0 0;
+}
+
+ span {
+    color: #767676;
+    font-size: 12px;
+}

@@ -1,0 +1,37 @@
+
+
+
+@keyframes bloc__ON {
+    0% {
+        left : 400px;
+    }
+    100% {
+        left:0;
+    }
+}
+
+@keyframes bloc__OFF {
+    0% {
+        left : 0px;
+    }
+    100% {
+        left:400px;
+    }
+}
+@keyframes bloc__UP {
+    0% {
+        top : 0;
+    }
+    100% {
+        top: -300px;
+    }
+}
+
+@keyframes bloc__DOWN {
+    0% {
+        top : -300px;
+    }
+    100% {
+        top:0px;
+    }
+}
