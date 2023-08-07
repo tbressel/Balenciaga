@@ -17,7 +17,12 @@ html {
     font-weight: 400;
 }
 
-
+h2 {
+    font-family: 'BBCondBold';
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 400;
+}
 
 h6 {
     font-family: 'BBRegular';
@@ -32,4 +37,9 @@ h6 {
  span {
     color: #767676;
     font-size: 12px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
 }

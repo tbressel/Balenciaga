@@ -35,3 +35,30 @@
         top:0px;
     }
 }
+
+
+
+@keyframes swing_true {
+    0% {
+        margin-left: -360px;
+    }
+
+    100% {
+        margin-left: 5px;
+    }
+}
+
+
+
+
+@keyframes button {
+    0% {
+        margin-top: 0px;
+        text-decoration: none;
+    }
+    100% {
+        margin-top: -50px;
+        text-decoration: none;
+    }
+    
+}

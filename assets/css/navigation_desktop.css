@@ -123,12 +123,9 @@
 
 
 section div {
-    height: 100vh;
-    width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
-
 }
 
 
@@ -150,5 +147,24 @@ section div {
 .image6 {
     background-image: url("../img/Image6d.jpg");
 }
+
+
+.section__container-bottom {  
+    position: relative;
+    top: -80px;
+    text-align: center;
+  
+
+    
+}
+
+
+.button__container {
+    width: fit-content; 
+   
+}
+
+
+
 
 }
