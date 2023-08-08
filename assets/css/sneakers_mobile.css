@@ -1,0 +1,26 @@
+.bloc3__menu {
+    position: relative;
+    z-index: -2;
+}
+
+.bloc3__menu::before {
+    content: url('../svg/left-arrow.svg');
+    position: absolute;
+    left: 0;
+    top: 4px;
+    padding-right: 20px;
+    background: linear-gradient(90deg,#fff 66%,hsla(0,0%,100%,0));
+}
+.bloc3__menu::after {
+    content: url('../svg/right-arrow.svg');
+    position: absolute;
+    right: -44px;
+    top: 4px;
+    padding-left: 20px;
+    padding-right: 40px;
+    background: linear-gradient(90deg,#fff 66%,hsla(0,0%,100%,0));
+}
+
+.bloc3__menu  li a {
+    white-space: nowrap;
+}

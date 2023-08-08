@@ -209,6 +209,10 @@
         flex-direction: row;
         text-transform: uppercase;
     }
+    .head__container-bloc3 {
+        overflow: hidden;
+        padding-right: 20px;
+    }
         .head__container-bloc3 ul{
             display: flex;
             flex-direction: row;
