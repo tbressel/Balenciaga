@@ -47,3 +47,122 @@
 }
 
 
+/* 
+.sneaker_top img{
+    position: static;
+    width: 100vw;
+    height: auto;
+}
+ */
+ .sneaker_top {
+    background-image: url("../img/sneakers/Medium-_0002_230317_35_3XLPink_1365_Finals.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 300px;
+    border-bottom: 1px black solid;
+}
+
+.sneaker__bar-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.right__part {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: fit-content;
+    width: 30vw;
+    text-transform: uppercase;
+}
+
+.case1, .case2, .case3, .case4 {
+    border: 2px solid black;
+    height: 10px;
+    width: 10px;
+}
+
+.case2, .case4 {
+    margin-top: -1px;
+}
+
+.disp1, .disp2 {
+    border-right: none;
+}
+.disp3, .disp4 {
+    border-left: none;
+}
+
+
+
+.grid__container {
+    column-count: 2;
+    column-gap: 0;
+    margin-left: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.gallery__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.item__container {
+    width: 50%;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-bottom: 50px;
+    cursor: pointer;
+}
+
+.alt_display {
+    width: 100%;
+}
+.item__container-image img {
+    width: 100%;
+}
+.item__container h3 {
+    text-align: center;
+}
+
+.item__container p {
+    text-align: center;
+    margin: 5px;
+}
+
+.item__container ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+
+.colors__container {
+    display: flex;
+    justify-content: center;
+}
+.color1, .color2 {
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.color1 {
+    background-color: black;
+}
+.hover__container {
+    display: none;
+    opacity: 0;
+    transition: 500ms ease-in-out;
+}

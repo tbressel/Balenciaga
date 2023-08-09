@@ -1,0 +1,35 @@
+@media (min-width: 800px) {
+
+
+    .sneaker_top {
+        background-image: url("../img/sneakers/Medium-_0002__0002_230317_35_3XLPink_1365_Finals.jpg");
+    }
+    
+    
+    .disp1, .disp2 {
+        border-right: none;
+    }
+    .disp3, .disp4 {
+        border-left: none;
+    }
+    
+    
+    .item__container {
+        width: 33%;
+      
+    }
+    
+    .alt_display {
+        width: 50%;
+    }
+
+.show {
+display: initial;
+opacity: 1;
+}
+
+
+}
+
+
+

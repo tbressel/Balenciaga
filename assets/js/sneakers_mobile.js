@@ -62,3 +62,37 @@ ELEMENT__next.addEventListener('mouseover', () => {
 ELEMENT__next.addEventListener('mouseout', () => {
     stopIncrement();
 });
+
+
+
+
+let ELEMENT__grid = document.querySelector(".grid__container").addEventListener('click', () => {
+
+    document.querySelector(".case1").classList.toggle("disp1")
+    document.querySelector(".case2").classList.toggle("disp2")
+    document.querySelector(".case3").classList.toggle("disp3")
+    document.querySelector(".case4").classList.toggle("disp4")
+
+
+
+
+
+    let ELEMENT__container = document.querySelectorAll(".item__container");
+    ELEMENT__container.forEach(element => {
+        element.classList.toggle("alt_display");
+    });
+})
+
+let ELEMENT__show = document.querySelectorAll(".item__container");
+ELEMENT__show.forEach(element => {
+    element.addEventListener("mouseover", () => {
+        element.querySelector(".hover__container").classList.add("show");
+    })
+});
+let ELEMENT__hide = document.querySelectorAll(".item__container");
+ELEMENT__hide.forEach(element => {
+    element.addEventListener("mouseout", () => {
+        element.querySelector(".hover__container").classList.remove("show");
+    })
+});
+
