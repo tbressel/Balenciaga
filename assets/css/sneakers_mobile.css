@@ -59,7 +59,7 @@
     background-size: cover;
     background-position: center;
     width: 100vw;
-    min-height: 500px;
+    height: 280px;
     border-bottom: 1px black solid;
 }
 
