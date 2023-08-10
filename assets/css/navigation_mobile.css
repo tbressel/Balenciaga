@@ -1,6 +1,7 @@
 .menu-burger {
+    margin-top: 9px;
     width: 25px;
-    height: 25px;    
+    height: 25px;   
     cursor: pointer;
 }
     .burger-line1, .burger-line2, .burger-line3 {
@@ -34,7 +35,7 @@
 .main_navigation_window {
     position: absolute;
     left: -1000px;
-    top: 101px;
+    top: 42px;
     border: 1px black solid;
     background-color: var(--bs-white);
     padding :2px;
@@ -170,25 +171,20 @@
         }
 
 
-
-
-
-
-
-
-
-
-
 .flag, .login, .client {
     text-transform: uppercase;
     display: none;
 }
+
+
 .cart img,
 .glass img {
+    margin-right: 20px;
     cursor: pointer;
     width: 20px;
     margin-top: 8px;
 }
+
 .input input {
     border-radius: 5px;
     border: 1px rgba(0, 0, 0, 0.076) solid;
@@ -204,13 +200,20 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    top: -6px;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    z-index: 3;
 }
     .head__container-bloc2 {
+        position: relative;
         display: flex;
         flex-direction: row;
         text-transform: uppercase;
+        top: 98px;
     }
-    .head__container-bloc3 {
+    .head__container-bloc3 {   
         overflow: hidden;
         padding-right: 20px;
     }
@@ -397,3 +400,4 @@
 .level-3 {
     background-color: rgb(238, 234, 229);
 }
+

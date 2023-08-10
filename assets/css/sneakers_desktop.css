@@ -2,11 +2,14 @@
     .head__container-bloc3 {
         display: flex;
     }
-
+.head__container-bloc2 {
+    top:90px;
+}
 
     .sneaker_top {
         background-image: url("../img/sneakers/Medium-_0002__0002_230317_35_3XLPink_1365_Finals.jpg");
         height: 450px;
+        margin-top: 100px;
     }
     
     
@@ -31,6 +34,14 @@
 display: initial;
 opacity: 1;
 }
+
+
+.button__next, .button__prev,
+.head__container-bloc3::after,
+.head__container-bloc3::before {
+    display: none;
+}
+
 
 
 }
