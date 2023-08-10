@@ -8,7 +8,7 @@
     content: url('../svg/left-arrow.svg');
     position: absolute;
     left: 0px;
-    top: 63px;
+    top: 57px;
     padding-right: 20px;
     padding-left: 20px;
     z-index: 1;
@@ -19,7 +19,7 @@
     content: url('../svg/right-arrow.svg');
     position: absolute;
     right: -30px;
-    top: 63px;
+    top: 57px;
     padding-left: 20px;
     padding-right: 40px;
     background: linear-gradient(90deg,#fff 66%,hsla(0,0%,100%,0));
@@ -170,4 +170,7 @@
 
 .head__container-bloc2 {
     top:90px;
+}
+.head__container-bloc3 {
+    margin-top: -6px;
 }
