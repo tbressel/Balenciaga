@@ -373,3 +373,27 @@
         animation: button 800ms  forwards;
         animation-iteration-count: 1;
     }
+
+    .level-1 p span {
+        font-size: 16px;
+        cursor: pointer;
+        text-transform: uppercase;
+        color: black;
+      
+    }
+.level-2 {
+    background-color: rgb(225, 255, 255);
+    font-size: 14px;
+}
+
+.level-2 span {
+    font-size: 14px;
+    cursor: pointer;
+        text-transform: uppercase;
+        color: black;
+}
+
+
+.level-3 {
+    background-color: rgb(238, 234, 229);
+}
